@@ -1,0 +1,48 @@
+{
+  "name": "clone-all-cli",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "oauth": "^0.9.14",
+    "open": "0.0.5",
+    "preferences": "^0.2.1",
+    "request-promise": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.0.1"
+  },
+   "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true,
+      "mocha": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "indent": [
+        2,
+        2
+      ],
+      "linebreak-style": [
+        2,
+        "unix"
+      ],
+      "quotes": [
+        2,
+        "single"
+      ],
+      "semi": [
+        2,
+        "always"
+      ]
+    }
+  }
+}
