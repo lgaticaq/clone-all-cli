@@ -14,7 +14,7 @@
     "oauth": "^0.9.14",
     "open": "0.0.5",
     "preferences": "^0.2.1",
-    "request-promise": "^4.1.1"
+    "request-promise": "^4.2.1"
   },
   "devDependencies": {
     "eslint": "^3.9.0"
