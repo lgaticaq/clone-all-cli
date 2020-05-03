@@ -13,7 +13,7 @@
     "lodash": "^4.16.5",
     "oauth": "^0.9.14",
     "open": "0.0.5",
-    "preferences": "^1.0.0",
+    "preferences": "^2.0.0",
     "request-promise": "^4.1.1"
   },
   "devDependencies": {
