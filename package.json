@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [],
   "author": "",
@@ -14,12 +16,13 @@
     "oauth": "^0.9.14",
     "open": "0.0.5",
     "preferences": "^1.0.0",
-    "request-promise": "^4.1.1"
+    "request-promise": "^4.1.1",
+    "snyk": "^1.319.0"
   },
   "devDependencies": {
     "eslint": "5.16.0"
   },
-   "eslintConfig": {
+  "eslintConfig": {
     "env": {
       "es6": true,
       "node": true,
@@ -44,5 +47,6 @@
         "always"
       ]
     }
-  }
+  },
+  "snyk": true
 }
